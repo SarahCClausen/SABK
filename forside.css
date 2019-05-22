@@ -1,0 +1,42 @@
+
+.Overskriter{
+    text-align: center;
+    -webkit-text-fill-color: rgb(238, 36, 36);
+    font-size: 40px;
+}
+
+.foto{
+    width: 60%;
+    max-height: 400px;
+}
+   
+
+
+    
+}
+.navn{
+    display: block;
+    float: center;
+    margin: auto;
+}
+.logo{
+    display: block;
+    position: absolute;
+    top: 0px; 
+    left: 1090px; 
+}
+.topnav{
+    overflow: hidden;
+    background-color: rgb(235, 22, 22);
+}
+.topnav a{
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
