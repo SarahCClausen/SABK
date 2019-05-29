@@ -1,23 +1,23 @@
-
 .Overskriter{
     text-align: center;
     -webkit-text-fill-color: rgb(238, 36, 36);
     font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
 }
-
-.foto{
-    width: 60%;
-    max-height: 400px;
+.om{
+    text-align: center;
+}   
+main{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 80px;
 }
-   
-
-
-    
+p{
+    grid-column: 2;
 }
-.navn{
-    display: block;
-    float: center;
-    margin: auto;
+.om p{
+    margin: 0;
+    padding: 7px;
 }
 .logo{
     display: block;
@@ -40,3 +40,42 @@
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
 }
+.intro{
+    margin: 5vw 12vw 5vw 12vw;
+}
+.intro_video {
+    width: 100%;
+}
+.slideshow {
+    text-align: center; 
+}
+.Galleri{
+    text-align: center;
+    padding: 15px;
+   /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;*/
+    max-width: 100%;
+    margin: 0 auto;
+}
+.Interview{
+    text-align: center;
+    padding: 15px;
+   /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;*/
+    max-width: 100%;
+    margin: 0 auto;
+}
+.Træner{
+    height: 200px;
+    width: 300px;
+    padding:15px 37px;
+    margin: 0px;
+}
+.center{
+    text-align: center;
+}
+.Adresse {
+    background: rgb(235, 22, 22);
+    text-align: center;
+    margin: 0px;
+  }

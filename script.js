@@ -3,12 +3,12 @@ carousel();
 
 function carousel() {
   var i;
-  var x = document.getElementsByClassName("foto");
+  var x = document.getElementsByClassName("foto"); // Take the foto from foto
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2500); // Change image every 2 seconds
+  x[myIndex-1].style.display = "unset";  
+  setTimeout(carousel, 2500); // 0Change image every 2 seconds
 }
